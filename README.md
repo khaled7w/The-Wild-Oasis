@@ -1,8 +1,15 @@
-# React + Vite
+## Wild Oasis Hotel App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Wild Oasis Hotel** app is an internal tool designed for hotel staff to efficiently manage bookings, cabins, and guest information. It also includes a customer-facing website where guests can book their stays, both utilizing the same API.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Staff Management**: Manage bookings, cabins, and guest details internally.
+- **Customer Website**: Guests can book stays directly through the website, integrated with the same backend API.
+
+### Technologies Used
+
+- **React Router**: For seamless navigation within the application.
+- **Styled Components**: For dynamic and reusable styling of components.
+- **React Query**: To manage remote state and handle API requests effectively.
+- **Context API**: For managing the UI state across the application.
